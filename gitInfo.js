@@ -9,16 +9,14 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
-
+let gitDefinition = " git is software for tracking the changes you make to files"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
-
+let gitHubDefinition = 'Github is a place to create, store, watch, and otehrwise use for ajusting, storing, upload, and more for files using git'
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -33,40 +31,50 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
-
+let init = {
+    descriptions: "initializes a git repository at your location in the files",
+    code: "git init"
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
-
+let clone = {
+ description:'create a copy of traget repositroy, either local or remote',
+ code:'git clone <URL>'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
-
+let status = {
+    description: 'Displays status of current directory along with staging area',
+    code:'git status'
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
-
+let add = {
+    description:'Adds change in the working directory, either local or remote',
+    code:'git add, or git remote add <origin> <url>'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
-
+let commit = {
+    description:'Takes a snapshot of the current git project/repository',
+    code:'git commit -m "commit message"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,4 +82,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push ={
+    description:" Upload local repo to site, or remote repo ",
+    code: 'git push <origin> <location in repo>'
+}

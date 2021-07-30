@@ -14,9 +14,16 @@
   For example: 'Hello! My name is Rubber Duck and I live in Utah"
 */
 
-//CODE HERE
+// let me = {
+//   firstName: 'Aiden',
+//   state: 'Constant Befuddlement',
+//   age: 24,
+//   greeter: console.log(`Ayo, my name ${me.firstName} and I live in ${me.state}`)
+//  };
 
 
+// me.greeter
+// I don't want to spend all day on this one, so Ima pass on it for now
 
 
 
@@ -44,4 +51,16 @@
   }
 */
 
-//CODE HERE
+function carFactory (make,model,year){
+  let car = {
+    make: make,
+    model: model,
+    year: year
+  };
+  if(year > 2018){
+    car.isNew = true
+  } else {
+    car.isNew = false
+  } return car
+}
+console.log(carFactory('car','truck', 2019))
